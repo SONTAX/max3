@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="451.0" prefWidth="381.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Розрахувати значення х" />
+   <ImageView fx:id="img" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+    <Button onAction="#onButtonClick" text="Обчислити" />
+   <HBox prefHeight="42.0" prefWidth="155.0">
+      <children>
+         <Label text="Результат = " />
+         <Label fx:id="result" />
+      </children>
+   </HBox>
+</VBox>
